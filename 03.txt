@@ -1,0 +1,35 @@
+ Part 5-1: review machine learning
+Why do we use Derivative / Gredient to fit a target function?
+Ans:Gredient能很好地反映函数变化趋势的平缓程度的方向，从而找到使函数值y最小值
+
+In the words 'Gredient Descent', what's the Gredient and what's the Descent??
+Ans:Gredient只loss函数分别对K、B求导。K、B值往其倒数反方向减小
+
+What's the advantages of the 3rd gradient descent method compared to the previous methods?
+Ans:LOSS函数值减小速度更快
+
+Using the simple words to describe: What's the machine leanring.?
+Ans:计算机通过大量数据自己不断优化、改善自己函数的模型？
+
+Part 5: Answer following questions:
+Why do we need dynamic programming? What's the difference of dynamic programming and previous talked search problme?
+Ans:dynamic programming可以通过查表方式，避免重复计算。速度大大提高
+
+Why do we still need dynamic programming? Why not we train a machine learning to fit a function which could get the right answer
+ based on inputs?
+Ans:dynamic programming速度很快，效率很高。dynamic programming问题可以用machine learning方法解决吗？
+
+Can you catch up at least 3 problems which could solved by Dynamic Programming?
+Ans:工厂货运最优解、铜条分割
+
+Can you catch up at least 3 problems wich could sloved by Edit Distance?
+Ans:计算文本相似度，
+
+Please summarize the three main features of Dynamic Programming, and make a concise explain for each feature.
+Ans:Overlapping Subproblems，前面的计算内容与后面计算内容有相同、重复计算
+Overlapping computing saved in a table，可以建立表格存储以前计算结果
+Parse solution，查表解决
+
+What's the disadvantages of Dynamic Programming? (You may need search by yourself in Internet)
+Ans:1. 没有统一的标准模型；
+2. 数值方法求解时存在维数灾。
